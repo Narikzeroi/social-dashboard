@@ -427,6 +427,12 @@ export default function Dashboard() {
           >
             <Plus size={14} /> Проект
           </button>
+          <a
+            href="/api/instagram/auth"
+            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl text-sm font-medium hover:opacity-90 transition-opacity"
+          >
+            <Instagram size={14} /> Instagram
+          </a>
           <button
             onClick={() => setShowAddUrl(true)}
             className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-xl text-sm font-medium hover:bg-indigo-700 transition-colors"
